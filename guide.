@@ -1,0 +1,10 @@
+def answering_machine(message, caller_name):
+    """Simulates an answering machine by returning a message string."""
+    return f"Hi, this is {caller_name}. {message}. Please leave a message after the beep."
+This function takes two parameters: message and caller_name. The message parameter represents the message that the caller wants to leave, while the caller_name parameter represents the name of the caller. The function then returns a string that simulates the message that an answering machine would play, including the caller's name and the message they want to leave.
+
+Here's an example of how you could use this function:
+>>> message = "I'm calling to follow up on my job application."
+>>> caller_name = "John"
+>>> answering_machine(message, caller_name)
+"Hi, this is John. I'm calling to follow up on my job application. Please leave a message after the beep."
